@@ -382,7 +382,7 @@ When you build extensions for sorting, you may want to modify or extend the `Def
 
 ```csharp
 descriptor.ConfigureEnum<DefaultSortEnumType>(
-    x => x.Operaion(CustomOperations.NULL_FIRST).Name("NULL_FIRST));
+    x => x.Operation(CustomOperations.NULL_FIRST).Name("NULL_FIRST));
 ```
 
 ```sdl
